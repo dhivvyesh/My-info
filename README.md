@@ -1,59 +1,35 @@
-# Hi, I’m Dhivvyesh Kumar
- 
-Aspiring AI innovator passionate about ethical, human-centered technology  
-Co-founder of Green Warriors | 📸 School Photographer |AI Ethics Researcher  
-Applying to NTU – B.Comp in Artificial Intelligence and Society
+# 👋 Hi, I'm Dhivvyesh Kumar
 
+I'm a student passionate about building AI systems that are not only intelligent, but also ethical, inclusive, and impactful. My interests lie at the intersection of artificial intelligence, civic engagement, and environmental sustainability.
 
+---
 
-## My Vision  
-I believe AI should be designed with empathy, fairness, and transparency.  
-My work blends technical skill with social impact — from building an admission prediction model  
-that reflects on algorithmic bias to leading tree-planting initiatives for sustainability.  
-NTU’s AI and Society program perfectly aligns with this interdisciplinary mindset.
+## 🧠 Highlight Project
 
+### 🔹 Warrior AI – Civic Chatbot for Waste Segregation
+A retrainable AI-powered chatbot developed to promote sustainable waste segregation practices in a 400+ household community. Built with NLP preprocessing, multi-model classification (Logistic Regression, Random Forest, SVM, Naive Bayes), and ethical design principles. This project reflects my commitment to building responsible AI that benefits society.
 
+📁 [View Project on GitHub](https://github.com/dhivvyesh/warrior-ai)
 
-## Featured Projects
+---
 
-### College Admission Calculator  
-Built a machine learning model (Random Forest, Logistic Regression) to predict college admissions.  
-Included data visualization, hypothesis testing, and an ethical reflection on bias in AI decision-making.
-
-### Railway Booking System  
-Developed a Python-based CLI system for dynamic seat allocation, fare calculation, and real-time logic.  
-Showcased structured programming, automation, and algorithm design.
-
-### Research Paper: “Why and How Do Hackers Hack”  
-Explored the psychology and ethics behind hacking.  
-Connected findings to cybersecurity, digital misuse, and the importance of AI governance.
-
-
-## Social Impact & Leadership
-
-- Co-founded **Green Warriors** – sustainability program for 400+ households (tree planting, waste mgmt)  
-- Organized school events: **Annual Day**, **Farewell**, and volunteering programs  
-- Sports House Captain (Grade 11) | Best Athlete (4 years)  
-- Photography Club (4 years) – Led shoots, mentored juniors  
-- Studied Kalaripayattu (2 yrs), Drama (IGCSE), Music, Art  
-- Participated in farm visits, EVM sessions, and Garbology Program
-
-
-
-## Certifications
-
+## 🧾 Certifications & Ethics
 - Microsoft – Responsible AI  
-- UNESCO – Artificial Intelligence and the Rule of Law  
+- UNESCO – AI and the Rule of Law  
 - IBM – Data Science Certificate  
-- Prompt Engineering for Everyone – Cognitive Class  
+- IBM Developer Skill Network – Prompt Engineering
 
+Reflections available in the [certifications folder](https://github.com/dhivvyesh/certifications)
 
+---
 
+## 💡 What I Care About
+- AI for civic and environmental good  
+- Transparency, fairness, and human-centered design  
+- Responsible technology for real-world impact
 
-## Technical & Soft Skills
+---
 
-Python · scikit-learn · matplotlib · seaborn · data analysis  
-AI ethics · ML modeling · communication · leadership · ethical reasoning
-
-
-> I'm committed to building responsible, human-aligned AI — starting at NTU.
+## 📫 Connect With Me
+🔗 GitHub: [@dhivvyesh](https://github.com/dhivvyesh)  
+📄 Resume available upon request
