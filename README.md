@@ -1,4 +1,5 @@
-# Warrior AI – Project README
+# Dhivvyesh Kumar S
+
 
 ## About Me
 I’m Dhivvyesh Kumar, an aspiring AI enthusiast driven by the intersection of artificial intelligence, ethics, and civic responsibility. My projects aim to deliver not just technical performance, but social value. I am particularly passionate about sustainable development and responsible AI design that benefits real communities.
