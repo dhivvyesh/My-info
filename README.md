@@ -14,10 +14,9 @@ I authored a research paper analyzing hacker motivations, cyber risks, and how A
 ### Railway Management System
 A Python and SQL-based CLI project simulating a real-world railway booking system. It includes modules for seat allocation, fare computation, and live input validation. Through this project, I deepened my understanding of logic-building, structured data handling, and database interaction. It laid the groundwork for thinking critically about real-world system applications.
 
-### Warrior AI – Ethical Waste Management Chatbot
-A machine learning–driven chatbot developed as part of the Green Warriors initiative to assist over 400 households in waste segregation. The system uses NLP (tokenization, lemmatization), TF-IDF, and classifiers like Logistic Regression, Random Forest, SVM, and Naive Bayes. It is retrainable, ethical, and civic-minded—built to demonstrate how AI can reinforce public good and sustainable behavior. This project helped me learn model design, bias mitigation, and explainable AI techniques.
+### College Admission Calculator
+The College Admission Calculator is a machine learning project that predicts a student's chance of admission using classification models like Random Forest and Logistic Regression. It involves data preprocessing, feature engineering, and model evaluation using metrics such as accuracy and ROC-AUC. Visualizations are created with Matplotlib to interpret results and feature importance. This project demonstrates the practical use of data science in education, highlighting the role of responsible and explainable AI in socially relevant domains.
 
----
 
 ## Certifications
 - Microsoft – Responsible AI
