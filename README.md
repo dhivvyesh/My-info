@@ -8,6 +8,9 @@ I’m Dhivvyesh Kumar, an aspiring AI enthusiast driven by the intersection of a
 
 ## Projects
 
+### Research Paper – Why and How Do Hackers Hack
+I authored a research paper analyzing hacker motivations, cyber risks, and how AI systems can be misused if not governed responsibly. This work helped me understand the importance of digital ethics, cybersecurity, and AI governance. With a plagiarism score of just 0.7%, the paper reflects my commitment to original thought and policy-focused inquiry.
+
 ### Railway Management System
 A Python and SQL-based CLI project simulating a real-world railway booking system. It includes modules for seat allocation, fare computation, and live input validation. Through this project, I deepened my understanding of logic-building, structured data handling, and database interaction. It laid the groundwork for thinking critically about real-world system applications.
 
