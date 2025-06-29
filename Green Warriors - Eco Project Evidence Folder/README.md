@@ -1,7 +1,7 @@
 # Green Warriors – Sustainability & Waste Management Initiative
 
 ## Overview
-Warriors Eco is a community-driven initiative co-founded by Dhivvyesh Kumar, aimed at promoting sustainable living and waste management practices in a residential complex of over 400 households. The initiative focuses on eco-awareness, civic engagement, and hands-on implementation of environmental principles in everyday life.
+Green Warriors is a community-driven initiative co-founded by Dhivvyesh Kumar, aimed at promoting sustainable living and waste management practices in a residential complex of over 400 households. The initiative focuses on eco-awareness, civic engagement, and hands-on implementation of environmental principles in everyday life.
 
 ## Key Contributions
 - **Tree Planting Campaigns**: Led multiple tree planting drives in collaboration with residents and volunteers.
@@ -21,5 +21,5 @@ Warriors Eco is a community-driven initiative co-founded by Dhivvyesh Kumar, aim
 
 ## Author
 **Dhivvyesh Kumar**  
-Co-founder, Warriors Eco  
+Co-founder, Green Warriors  
 Aiming to merge AI and social good for a cleaner, more equitable future.
