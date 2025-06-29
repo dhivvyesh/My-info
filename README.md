@@ -9,7 +9,7 @@ I'm a student passionate about building AI systems that are not only intelligent
 ### 🔹 Warrior AI – Civic Chatbot for Waste Segregation
 A retrainable AI-powered chatbot developed to promote sustainable waste segregation practices in a 400+ household community. Built with NLP preprocessing, multi-model classification (Logistic Regression, Random Forest, SVM, Naive Bayes), and ethical design principles. This project reflects my commitment to building responsible AI that benefits society.
 
-📁 [View Project on GitHub](https://github.com/dhivvyesh/warrior-ai)
+📁 [View Project on GitHub]()
 
 ---
 
@@ -19,7 +19,7 @@ A retrainable AI-powered chatbot developed to promote sustainable waste segregat
 - IBM – Data Science Certificate  
 - IBM Developer Skill Network – Prompt Engineering
 
-Reflections available in the [certifications folder](https://github.com/dhivvyesh/certifications)
+Reflections available in the [certifications folder]([https://github.com/dhivvyesh/certifications](https://github.com/dhivvyesh/My-info/tree/main/Certifications))
 
 ---
 
@@ -30,6 +30,3 @@ Reflections available in the [certifications folder](https://github.com/dhivvyes
 
 ---
 
-## 📫 Connect With Me
-🔗 GitHub: [@dhivvyesh](https://github.com/dhivvyesh)  
-📄 Resume available upon request
