@@ -2,7 +2,7 @@
 
 ## Overview
 Green Warriors is a community-driven initiative co-founded by Dhivvyesh Kumar, aimed at promoting sustainable living and waste management practices in a residential complex of over 400 households. The initiative focuses on eco-awareness, civic engagement, and hands-on implementation of environmental principles in everyday life.
-
+a
 ## Key Contributions
 - **Tree Planting Campaigns**: Led multiple tree planting drives in collaboration with residents and volunteers.
 - **Waste Segregation Education**: Conducted awareness sessions and distributed segregation guidelines.
