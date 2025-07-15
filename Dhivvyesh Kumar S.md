@@ -23,6 +23,7 @@ The College Admission Calculator is a machine learning project that predicts a s
 - UNESCO – AI and the Rule of Law
 - IBM Data Science Certificate
 - IBM Developer Skill Network – Prompt Engineering
+- IBM Developer Skill Network-Machine Learning with Python
 
 These certifications shaped my ethical outlook on AI, reinforcing the principles of transparency, governance, and human-centric design.
 
