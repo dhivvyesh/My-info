@@ -33,17 +33,3 @@ These certifications shaped my ethical outlook on AI, reinforcing the principles
 Proficient in Python, SQL, and basic HTML/CSS with hands-on experience in machine learning, data visualization, and database systems. Skilled in using libraries like scikit-learn, pandas, numpy, matplotlib, and seaborn for data preprocessing, exploratory analysis, model training, and evaluation. Familiar with classification algorithms (Logistic Regression, Random Forest), performance metrics (accuracy, precision, recall, confusion matrix, ROC-AUC), and explainable AI techniques like SHAP. Experienced in working with Jupyter Notebook, Google Colab, and GitHub for collaborative development and documentation. Integrated SQL into Python-based CLI apps to simulate real-time systems. Trained in responsible AI principles, fairness auditing, and ethical model design through Microsoft, IBM, and UNESCO courses. Comfortable with Git, version control, and beginner-level tools like Streamlit for ML app deployment. Strong conceptual grounding in responsible data science and human-centric design.
 
 ---
-
-# Why I Chose NTU's B.Sc (Hons) in Data Science and Artificial Intelligence (DSAI)
-
-## Personal Motivation
-My passion for Data Science and Artificial Intelligence stems from a desire to solve real-world problems using structured, interpretable data and ethical modeling. I have developed projects such as a College Admission Predictor using logistic regression and Random Forest, as well as a Python-SQL Railway Management System simulating real-time operations. These experiences allowed me to build core skills in model evaluation, data visualization, and system logic, while also introducing me to fairness, bias, and ethical data usage.
-
-## Why NTU
-NTU stands out for its robust data science curriculum, industry partnerships, and interdisciplinary research ecosystem. The DSAI program offers a comprehensive foundation in machine learning, statistical modeling, and applied AI, all of which directly align with my academic and career goals. Its focus on innovation through responsible data-driven systems strongly appeals to my interest in socially impactful AI.
-
-## Why Assoc Prof Sourav Saha Bhowmick
-I am especially inspired by Assoc Prof Sourav Saha Bhowmick, who leads the Data Management and Analytics Research Group (DANTE). His work in data modeling and multi-domain applications—including biomedical and societal data—mirrors my goal to use AI in service of communities and institutions. Learning from his research group would give me both the mentorship and environment needed to contribute meaningfully to data-driven innovation.
-
-## Long-Term Vision
-Through NTU’s DSAI program, I aim to master predictive modeling, data analysis, and ethical AI. I intend to apply these skills to sectors like education analytics, civic systems, and public decision-making platforms. NTU’s global reputation and research leadership offer the ideal launchpad to achieve these goals and build technology that is impactful, explainable, and fair.
