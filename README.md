@@ -33,3 +33,17 @@ These certifications shaped my ethical outlook on AI, reinforcing the principles
 Proficient in Python, SQL, and basic HTML/CSS with hands-on experience in machine learning, data visualization, and database systems. Skilled in using libraries like scikit-learn, pandas, numpy, matplotlib, and seaborn for data preprocessing, exploratory analysis, model training, and evaluation. Familiar with classification algorithms (Logistic Regression, Random Forest), performance metrics (accuracy, precision, recall, confusion matrix, ROC-AUC), and explainable AI techniques like SHAP. Experienced in working with Jupyter Notebook, Google Colab, and GitHub for collaborative development and documentation. Integrated SQL into Python-based CLI apps to simulate real-time systems. Trained in responsible AI principles, fairness auditing, and ethical model design through Microsoft, IBM, and UNESCO courses. Comfortable with Git, version control, and beginner-level tools like Streamlit for ML app deployment. Strong conceptual grounding in responsible data science and human-centric design.
 
 ---
+## 📄 Blog & Reflections
+
+I’ve documented the full technical and ethical journey of building this project in a published blog:
+
+**How I Built a Fair and Explainable College Admission Predictor**  
+Published on LinkedIn – April 2025  
+[Read the article](https://www.linkedin.com/pulse/how-i-built-fair-explainable-college-admission-predictor-kumar-qgyuc)
+
+This post walks through:
+- Why I built the project
+- Full ML pipeline
+- Bias mitigation strategies
+- SHAP and interpretability
+- Ethical lessons and real-world implications
