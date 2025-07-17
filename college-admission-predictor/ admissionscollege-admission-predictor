@@ -9,7 +9,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 Optional packages for enhanced functionality:
 pip install xgboost shap imbalanced-learn
 
-Author: DSAI Applicant Demo
+Author: Dhivvyesh Kumar S
 """
 
 import pandas as pd
