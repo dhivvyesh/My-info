@@ -460,61 +460,58 @@ class CollegeAdmissionPredictor:
         except Exception as e:
             print(f"SHAP analysis failed: {e}")
     
-    def ethical_analysis(self, data):
-        """Analyze ethical implications and biases"""
-        print("\n=== ETHICAL ANALYSIS ===")
-        
-        # Analyze fairness across different groups
-        fairness_metrics = {}
-        
-        # Best model for analysis
-        best_model_name = max(self.results.keys(), 
-                             key=lambda x: self.results[x]['roc_auc'])
-        best_results = self.results[best_model_name]
-        
-        # Analyze by family income quintiles
-        income_quintiles = pd.qcut(data['Family_Income'], q=5, labels=['Q1', 'Q2', 'Q3', 'Q4', 'Q5'])
-        
-        print("Fairness Analysis by Income Quintile:")
-        for quintile in income_quintiles.unique():
-            mask = income_quintiles == quintile
-            actual_rate = data.loc[mask, 'Admitted'].mean()
-            predicted_rate = best_results['y_pred_proba'][mask.values].mean()
-            
-            print(f"  {quintile}: Actual={actual_rate:.3f}, Predicted={predicted_rate:.3f}")
-            fairness_metrics[f'income_{quintile}'] = {
-                'actual_rate': actual_rate,
-                'predicted_rate': predicted_rate
-            }
-        
-        # Analyze by parent education
-        print("\nFairness Analysis by Parent Education Level:")
-        for edu_level in sorted(data['Parent_Education_Level'].unique()):
-            mask = data['Parent_Education_Level'] == edu_level
-            actual_rate = data.loc[mask, 'Admitted'].mean()
-            predicted_rate = best_results['y_pred_proba'][mask.values].mean()
-            
-            edu_labels = {0: 'No College', 1: 'Some College', 2: "Bachelor's", 3: 'Graduate'}
-            print(f"  {edu_labels[edu_level]}: Actual={actual_rate:.3f}, Predicted={predicted_rate:.3f}")
-        
-        # Analyze by school type
-        print("\nFairness Analysis by School Type:")
-        for school_type in data['School_Type'].unique():
-            mask = data['School_Type'] == school_type
-            actual_rate = data.loc[mask, 'Admitted'].mean()
-            predicted_rate = best_results['y_pred_proba'][mask.values].mean()
-            
-            print(f"  {school_type}: Actual={actual_rate:.3f}, Predicted={predicted_rate:.3f}")
-        
-        # Bias recommendations
-        print("\n=== BIAS MITIGATION RECOMMENDATIONS ===")
-        print("1. Income Bias: Consider need-blind admissions or income-adjusted thresholds")
-        print("2. Educational Background: Implement holistic review processes")
-        print("3. Geographic Diversity: Ensure regional representation in admissions")
-        print("4. Regular Auditing: Monitor model performance across demographic groups")
-        print("5. Human Oversight: Maintain human review for borderline cases")
-        
-        return fairness_metrics
+def ethical_analysis(self, data):
+    import streamlit as st
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import pandas as pd
+
+    st.subheader("📊 Ethical & Fairness Analysis")
+
+    # Check if required columns exist
+    required_columns = ['Family_Income', 'Parent_Education_Level', 'School_Type', 'Admitted']
+    for col in required_columns:
+        if col not in data.columns:
+            st.error(f"Missing column: {col}")
+            return
+
+    # Fairness by Income Quintile
+    if data['Family_Income'].nunique() >= 5:
+        income_quintiles = pd.qcut(
+            data['Family_Income'],
+            q=5,
+            labels=['Q1', 'Q2', 'Q3', 'Q4', 'Q5'],
+            duplicates='drop'
+        )
+        income_admit_rate = data.groupby(income_quintiles)['Admitted'].mean()
+
+        st.markdown("#### 🔍 Admission Rate by Income Quintile")
+        fig, ax = plt.subplots()
+        sns.barplot(x=income_admit_rate.index, y=income_admit_rate.values, palette='viridis', ax=ax)
+        ax.set_ylabel("Admission Rate")
+        ax.set_xlabel("Income Quintile")
+        st.pyplot(fig)
+    else:
+        st.warning("⚠️ Not enough unique values in Family Income to calculate quintiles.")
+
+    # Fairness by Parent Education Level
+    edu_admit_rate = data.groupby('Parent_Education_Level')['Admitted'].mean()
+    st.markdown("#### 🎓 Admission Rate by Parent Education Level")
+    fig, ax = plt.subplots()
+    sns.barplot(x=edu_admit_rate.index, y=edu_admit_rate.values, palette='coolwarm', ax=ax)
+    ax.set_ylabel("Admission Rate")
+    ax.set_xlabel("Parent Education Level")
+    st.pyplot(fig)
+
+    # Fairness by School Type
+    school_admit_rate = data.groupby('School_Type')['Admitted'].mean()
+    st.markdown("#### 🏫 Admission Rate by School Type")
+    fig, ax = plt.subplots()
+    sns.barplot(x=school_admit_rate.index, y=school_admit_rate.values, palette='Set2', ax=ax)
+    ax.set_ylabel("Admission Rate")
+    ax.set_xlabel("School Type")
+    st.pyplot(fig)
+
     
     def predict_admission(self, student_data):
         """Predict admission for a new student"""
