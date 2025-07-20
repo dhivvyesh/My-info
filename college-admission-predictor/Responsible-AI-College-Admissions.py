@@ -527,7 +527,6 @@ def ethical_analysis(self, data):
         return prediction, probability
     
     def generate_report(self):
-    
         """Generate comprehensive project report"""
         print("\n" + "="*60)
         print("COLLEGE ADMISSION PREDICTOR - FINAL REPORT")
