@@ -573,10 +573,10 @@ def ethical_analysis(self, data):
         print("✓ Visualization and reporting")
 
 
-def main():
-    """Main execution function"""
-    print("🎓 COLLEGE ADMISSION PREDICTOR")
-    print("Demonstrating DSAI Competencies\n")
+    def main():
+      """Main execution function"""
+      print("🎓 COLLEGE ADMISSION PREDICTOR")
+      print("Demonstrating DSAI Competencies\n")
     
     # Initialize predictor
     predictor = CollegeAdmissionPredictor()
