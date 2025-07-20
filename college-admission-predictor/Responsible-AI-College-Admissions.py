@@ -579,42 +579,42 @@ def ethical_analysis(self, data):
       print("Demonstrating DSAI Competencies\n")
     
     # Initialize predictor
-    predictor = CollegeAdmissionPredictor()
+      predictor = CollegeAdmissionPredictor()
     
     # Generate and explore data
-    print("Generating synthetic college admission data...")
-    data = predictor.generate_synthetic_data(n_samples=5000)
-    data = predictor.explore_data(data)
+      print("Generating synthetic college admission data...")
+      data = predictor.generate_synthetic_data(n_samples=5000)
+      data = predictor.explore_data(data)
     
     # Preprocess data
-    X_train, X_test, y_train, y_test, X_train_orig, y_train_orig = predictor.preprocess_data(data)
+      X_train, X_test, y_train, y_test, X_train_orig, y_train_orig = predictor.preprocess_data(data)
     
     # Train models
-    predictor.train_models(X_train, y_train)
+      predictor.train_models(X_train, y_train)
     
     # Hyperparameter tuning
-    predictor.hyperparameter_tuning(X_train, y_train)
+      predictor.hyperparameter_tuning(X_train, y_train)
     
     # Evaluate models
-    predictor.evaluate_models(X_test, y_test)
-    
+      predictor.evaluate_models(X_test, y_test)
+      
     # Model interpretability
-    predictor.interpret_models(X_train, X_test, y_test)
+      predictor.interpret_models(X_train, X_test, y_test)
     
     # Ethical analysis
-    predictor.ethical_analysis(data)
+      predictor.ethical_analysis(data)
     
     # Generate final report
-    predictor.generate_report()
+      predictor.generate_report()
     
-    print("\n✅ PROJECT COMPLETED SUCCESSFULLY!")
-    print("This demonstrates key DSAI competencies:")
-    print("- Machine Learning Pipeline Development")
-    print("- Model Selection and Evaluation")
-    print("- Feature Engineering and Preprocessing")
-    print("- Model Interpretability and Explainability")
-    print("- Ethical AI and Bias Analysis")
-    print("- Data Visualization and Communication")
+      print("\n✅ PROJECT COMPLETED SUCCESSFULLY!")
+      print("This demonstrates key DSAI competencies:")
+      print("- Machine Learning Pipeline Development")
+      print("- Model Selection and Evaluation")
+      print("- Feature Engineering and Preprocessing")
+      print("- Model Interpretability and Explainability")
+      print("- Ethical AI and Bias Analysis")
+      print("- Data Visualization and Communication")
 
 
 if __name__ == "__main__":
