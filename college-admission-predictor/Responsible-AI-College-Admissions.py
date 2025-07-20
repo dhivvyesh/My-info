@@ -572,8 +572,7 @@ def ethical_analysis(self, data):
         print("✓ Class imbalance handling with SMOTE")
         print("✓ Visualization and reporting")
 
-      
-    def main():
+def main():
     """Main execution function"""
     print("🎓 COLLEGE ADMISSION PREDICTOR")
     print("Demonstrating DSAI Competencies\n")
@@ -615,6 +614,7 @@ def ethical_analysis(self, data):
     print("- Model Interpretability and Explainability")
     print("- Ethical AI and Bias Analysis")
     print("- Data Visualization and Communication")
+
 
 if __name__ == "__main__":
     main()
