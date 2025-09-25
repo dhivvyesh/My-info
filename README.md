@@ -33,7 +33,7 @@ These certifications shaped my ethical outlook on AI, reinforcing the principles
 Proficient in Python, SQL, and basic HTML/CSS with hands-on experience in machine learning, data visualization, and database systems. Skilled in using libraries like scikit-learn, pandas, numpy, matplotlib, and seaborn for data preprocessing, exploratory analysis, model training, and evaluation. Familiar with classification algorithms (Logistic Regression, Random Forest), performance metrics (accuracy, precision, recall, confusion matrix, ROC-AUC), and explainable AI techniques like SHAP. Experienced in working with Jupyter Notebook, Google Colab, and GitHub for collaborative development and documentation. Integrated SQL into Python-based CLI apps to simulate real-time systems. Trained in responsible AI principles, fairness auditing, and ethical model design through Microsoft, IBM, and UNESCO courses. Comfortable with Git, version control, and beginner-level tools like Streamlit for ML app deployment. Strong conceptual grounding in responsible data science and human-centric design.
 
 ---
-## 📄 Blog & Reflections
+## Blog & Reflections
 
 I’ve documented the full technical and ethical journey of building this project in a published blog:
 
@@ -47,5 +47,7 @@ This post walks through:
 - Bias mitigation strategies
 - SHAP and interpretability
 - Ethical lessons and real-world implications
-##Why NTU
+
+---
+## Why NTU
 NTU stands at the intersection of innovation and impact, with world-class research facilities like the Computational Intelligence Lab and a strong focus on ethical AI. My projects — from the College Admission Predictor to ethical audits — align with NTU’s vision of using computational intelligence for real-world solutions. NTU’s interdisciplinary approach and Singapore’s leadership in AI research make it the ideal environment for me to grow as a data scientist committed to sustainability and ethical computing.
