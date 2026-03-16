@@ -49,5 +49,3 @@ This post walks through:
 - Ethical lessons and real-world implications
 
 ---
-## Why NTU
-NTU stands at the intersection of innovation and impact, with world-class research facilities like the Computational Intelligence Lab and a strong focus on ethical AI. My projects — from the College Admission Predictor to ethical audits — align with NTU’s vision of using computational intelligence for real-world solutions. NTU’s interdisciplinary approach and Singapore’s leadership in AI research make it the ideal environment for me to grow as a data scientist committed to sustainability and ethical computing.
